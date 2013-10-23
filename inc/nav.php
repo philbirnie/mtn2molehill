@@ -8,10 +8,9 @@
 				<div class="mp-level">
 					<h2 class="icon icon-display">Introduction</h2>
 					<ul>
-						<li><a href="">The Responsive Advantage</a></li>
-						<li><a href="">Our Problem</a></li>
-						<li><a href="">What Makes RWD Heavier?</a></li>
-						<li><a href="">Mobile Obstacles</a></li>
+						<li><a href="<?php echo $root; ?>/introduction/the-responsive-advantage">The Responsive Advantage</a></li>
+						<li><a href="<?php echo $root; ?>/introduction/our-problem">Our Problem</a></li>
+						<li><a href="<?php echo $root; ?>/introduction/mobile-obstacles">Mobile Obstacles</a></li>
 					</ul>
 				</div><!-- .mp-level -->
 			</li>
