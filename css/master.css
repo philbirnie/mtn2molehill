@@ -1,4 +1,3 @@
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/base\.less}line{font-family:\000031}}
 article,
 aside,
 details,
@@ -13,70 +12,56 @@ section,
 summary {
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/base\.less}line{font-family:\000031}}
 audio,
 canvas,
 video {
   display: inline-block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/base\.less}line{font-family:\000031}}
 audio:not([controls]) {
   display: none;
   height: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/base\.less}line{font-family:\000031}}
 [hidden] {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/base\.less}line{font-family:\000031}}
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/base\.less}line{font-family:\000031}}
 body {
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/base\.less}line{font-family:\000031}}
 a:focus {
   outline: thin dotted;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/base\.less}line{font-family:\000031}}
 a:active,
 a:hover {
   outline: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/base\.less}line{font-family:\000031}}
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/base\.less}line{font-family:\000031}}
 abbr[title] {
   border-bottom: 1px dotted;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/base\.less}line{font-family:\000031}}
 b,
 strong {
   font-weight: bold;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/base\.less}line{font-family:\000031}}
 dfn {
   font-style: italic;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/base\.less}line{font-family:\000031}}
 hr {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
   height: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/base\.less}line{font-family:\000031}}
 mark {
   background: #ff0;
   color: #000;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/base\.less}line{font-family:\000031}}
 code,
 kbd,
 pre,
@@ -84,19 +69,15 @@ samp {
   font-family: monospace,serif;
   font-size: 1em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/base\.less}line{font-family:\000031}}
 pre {
   white-space: pre-wrap;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/base\.less}line{font-family:\000031}}
 q {
   quotes: "\201C" "\201D" "\2018" "\2019";
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/base\.less}line{font-family:\000031}}
 small {
   font-size: 80%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/base\.less}line{font-family:\000031}}
 sub,
 sup {
   font-size: 75%;
@@ -104,38 +85,30 @@ sup {
   position: relative;
   vertical-align: baseline;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/base\.less}line{font-family:\000031}}
 sup {
   top: -0.5em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/base\.less}line{font-family:\000031}}
 sub {
   bottom: -0.25em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/base\.less}line{font-family:\000031}}
 img {
   border: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/base\.less}line{font-family:\000031}}
 svg:not(:root) {
   overflow: hidden;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/base\.less}line{font-family:\000031}}
 figure {
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/base\.less}line{font-family:\000031}}
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/base\.less}line{font-family:\000031}}
 legend {
   border: 0;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/base\.less}line{font-family:\000031}}
 button,
 input,
 select,
@@ -144,17 +117,14 @@ textarea {
   font-size: 100%;
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/base\.less}line{font-family:\000031}}
 button,
 input {
   line-height: normal;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/base\.less}line{font-family:\000031}}
 button,
 select {
   text-transform: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/base\.less}line{font-family:\000031}}
 button,
 html input[type="button"],
 input[type="reset"],
@@ -162,46 +132,38 @@ input[type="submit"] {
   -webkit-appearance: button;
   cursor: pointer;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/base\.less}line{font-family:\000031}}
 button[disabled],
 html input[disabled] {
   cursor: default;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/base\.less}line{font-family:\000031}}
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/base\.less}line{font-family:\000031}}
 input[type="search"] {
   -webkit-appearance: textfield;
   -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box;
   box-sizing: content-box;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/base\.less}line{font-family:\000031}}
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/base\.less}line{font-family:\000031}}
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/base\.less}line{font-family:\000031}}
 textarea {
   overflow: auto;
   vertical-align: top;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/base\.less}line{font-family:\000031}}
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/menu\.less}line{font-family:\000031}}
 *,
 *:after,
 *::before {
@@ -209,29 +171,24 @@ table {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/menu\.less}line{font-family:\000039}}
 html,
 body,
 .container,
 .scroller {
   height: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/menu\.less}line{font-family:\0000313}}
 .scroller {
   overflow-y: scroll;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/menu\.less}line{font-family:\0000317}}
 .scroller,
 .scroller-inner {
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/menu\.less}line{font-family:\0000322}}
 .container {
   position: relative;
   overflow: hidden;
   background: #eeeeee;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/menu\.less}line{font-family:\0000328}}
 .menu-trigger {
   position: relative;
   padding-left: 60px;
@@ -243,7 +200,6 @@ body,
   width: 40px;
   text-indent: -999999px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/menu\.less}line{font-family:\0000340}}
 .menu-trigger:before {
   position: absolute;
   top: 0px;
@@ -254,13 +210,11 @@ body,
   box-shadow: 0 6px #eeeeee, 0 12px #2a8fbd, 0 18px #eeeeee, 0 24px #2a8fbd;
   content: '';
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/menu\.less}line{font-family:\0000351}}
 .mp-pusher {
   position: relative;
   left: 0;
   height: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/menu\.less}line{font-family:\0000357}}
 .mp-menu {
   position: absolute;
   /* we can't use fixed here :( */
@@ -274,7 +228,6 @@ body,
   -moz-transform: translate3d(-100%, 0, 0);
   transform: translate3d(-100%, 0, 0);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/menu\.less}line{font-family:\0000369}}
 .mp-level {
   position: absolute;
   top: 0;
@@ -287,7 +240,6 @@ body,
   transform: translate3d(-100%, 0, 0);
 }
 /* overlays for pusher and for level that gets covered */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/menu\.less}line{font-family:\0000382}}
 .mp-pusher::after,
 .mp-level::after,
 .mp-level::before {
@@ -299,7 +251,6 @@ body,
   content: '';
   opacity: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/menu\.less}line{font-family:\0000394}}
 .mp-pusher::after,
 .mp-level::after {
   background: rgba(0, 0, 0, 0.3);
@@ -307,11 +258,9 @@ body,
   -moz-transition: opacity 0.3s, width 0.1s 0.3s, height 0.1s 0.3s;
   transition: opacity 0.3s, width 0.1s 0.3s, height 0.1s 0.3s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/menu\.less}line{font-family:\00003102}}
 .mp-level::after {
   z-index: -1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/menu\.less}line{font-family:\00003106}}
 .mp-pusher.mp-pushed::after,
 .mp-level.mp-level-overlay::after {
   width: 100%;
@@ -321,18 +270,15 @@ body,
   -moz-transition: opacity 0.3s;
   transition: opacity 0.3s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/menu\.less}line{font-family:\00003116}}
 .mp-level.mp-level-overlay {
   cursor: pointer;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/menu\.less}line{font-family:\00003120}}
 .mp-level.mp-level-overlay.mp-level::before {
   width: 100%;
   height: 100%;
   background: transparent;
   opacity: 1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/menu\.less}line{font-family:\00003127}}
 .mp-pusher,
 .mp-level {
   -webkit-transition: all 0.5s;
@@ -340,7 +286,6 @@ body,
   transition: all 0.5s;
 }
 /* overlap */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/menu\.less}line{font-family:\00003135}}
 .mp-overlap .mp-level.mp-level-open {
   box-shadow: 1px 0 2px rgba(0, 0, 0, 0.2);
   -webkit-transform: translate3d(-40px, 0, 0);
@@ -348,7 +293,6 @@ body,
   transform: translate3d(-40px, 0, 0);
 }
 /* First level */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/menu\.less}line{font-family:\00003143}}
 .mp-menu > .mp-level,
 .mp-menu > .mp-level.mp-level-open,
 .mp-menu.mp-overlap > .mp-level,
@@ -359,26 +303,22 @@ body,
   transform: translate3d(0, 0, 0);
 }
 /* cover */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/menu\.less}line{font-family:\00003154}}
 .mp-cover .mp-level.mp-level-open {
   -webkit-transform: translate3d(0, 0, 0);
   -moz-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/menu\.less}line{font-family:\00003160}}
 .mp-cover .mp-level.mp-level-open > ul > li > .mp-level:not(.mp-level-open) {
   -webkit-transform: translate3d(-100%, 0, 0);
   -moz-transform: translate3d(-100%, 0, 0);
   transform: translate3d(-100%, 0, 0);
 }
 /* content style */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/menu\.less}line{font-family:\00003167}}
 .mp-menu ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/menu\.less}line{font-family:\00003173}}
 .mp-menu h2 {
   margin: 0;
   padding: 1em;
@@ -387,7 +327,6 @@ body,
   font-weight: 300;
   font-size: 2em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/menu\.less}line{font-family:\00003182}}
 .mp-menu.mp-overlap h2::before {
   position: absolute;
   top: 0;
@@ -403,14 +342,12 @@ body,
   -moz-transform: translateX(-100%);
   transform: translateX(-100%);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/menu\.less}line{font-family:\00003198}}
 .mp-menu.mp-cover h2 {
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 1px;
   font-size: 1em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/menu\.less}line{font-family:\00003205}}
 .mp-overlap .mp-level.mp-level-overlay > h2::before {
   opacity: 1;
   -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
@@ -420,7 +357,6 @@ body,
   -moz-transform: translateX(0);
   transform: translateX(0);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/menu\.less}line{font-family:\00003215}}
 .mp-menu ul li > a {
   display: block;
   padding: 0.7em 1em;
@@ -432,7 +368,6 @@ body,
   -moz-transition: background 0.3s, box-shadow 0.3s;
   transition: background 0.3s, box-shadow 0.3s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/menu\.less}line{font-family:\00003227}}
 .mp-menu ul li::before {
   position: absolute;
   left: 10px;
@@ -440,22 +375,18 @@ body,
   color: rgba(0, 0, 0, 0.2);
   line-height: 3.5;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/menu\.less}line{font-family:\00003235}}
 .mp-level > ul > li:first-child > a {
   box-shadow: inset 0 -1px rgba(0, 0, 0, 0.2), inset 0 1px rgba(0, 0, 0, 0.2);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/menu\.less}line{font-family:\00003239}}
 .mp-menu ul li a:hover,
 .mp-level > ul > li:first-child > a:hover {
   background: rgba(0, 0, 0, 0.2);
   box-shadow: inset 0 -1px rgba(0, 0, 0, 0);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/menu\.less}line{font-family:\00003245}}
 .mp-menu .mp-level.mp-level-overlay > ul > li > a,
 .mp-level.mp-level-overlay > ul > li:first-child > a {
   box-shadow: inset 0 -1px rgba(0, 0, 0, 0);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/menu\.less}line{font-family:\00003250}}
 .mp-back {
   background: rgba(0, 0, 0, 0.1);
   outline: none;
@@ -472,7 +403,6 @@ body,
   -moz-transition: background 0.3s;
   transition: background 0.3s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/menu\.less}line{font-family:\00003267}}
 .mp-back::after {
   font-family: 'linecons';
   position: absolute;
@@ -481,7 +411,6 @@ body,
   font-size: 1.3em;
   color: rgba(0, 0, 0, 0.3);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/menu\.less}line{font-family:\00003276}}
 .mp-menu .mp-level.mp-level-overlay > .mp-back,
 .mp-menu .mp-level.mp-level-overlay > .mp-back::after {
   background: transparent;
@@ -490,53 +419,105 @@ body,
 }
 /* Fallback example for browsers that don't support 3D transforms (and no JS fallback) */
 /* We'll show the first level only */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/menu\.less}line{font-family:\00003285}}
 .no-csstransforms3d .mp-pusher,
 .no-js .mp-pusher {
   padding-left: 300px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/menu\.less}line{font-family:\00003290}}
 .no-csstransforms3d .mp-menu .mp-level,
 .no-js .mp-menu .mp-level {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/menu\.less}line{font-family:\00003295}}
 .no-csstransforms3d .mp-menu > .mp-level,
 .no-js .mp-menu > .mp-level {
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/master\.less}line{font-family:\000039}}
 body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   line-height: 1.7em;
   color: #333;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/master\.less}line{font-family:\0000315}}
 a,
 a:visited {
   color: #2a8fbd;
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/master\.less}line{font-family:\0000319}}
 a:hover,
 a:visited:hover {
-  color: #10a7f2;
+  color: #fa4945;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/master\.less}line{font-family:\0000325}}
 .mp-menu a {
   color: #fff;
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/master\.less}line{font-family:\0000330}}
 .mp-menu a:hover {
   color: #98cfe8;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmoney\/Sites\/m3\/html\/css\/_less\/master\.less}line{font-family:\0000336}}
 .page-content {
   padding: 30px;
   margin: auto;
-  max-width: 800px;
+  max-width: 960px;
+}
+.cover {
+  text-align: center;
+}
+h1 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 1em;
+}
+h2 {
+  color: #666;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+.pagination {
+  padding: 10px;
+  text-align: center;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+a.next,
+a.prev {
+  position: relative;
+  text-indent: -99999px;
+  -webkit-border-radius: 200px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 200px;
+  -moz-background-clip: padding;
+  border-radius: 200px;
+  background-clip: padding-box;
+  background: #2a8fbd;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  margin: 5px;
+}
+a.next::before,
+a.prev::before {
+  content: " ";
+  position: absolute;
+  height: 0;
+  width: 0;
+  border: solid 6px transparent;
+  border-left-color: #eeeeee;
+  top: 50%;
+  left: 50%;
+  margin: -6px 0 0 -3px;
+}
+a.next:hover,
+a.prev:hover {
+  background-color: #fa4945;
+}
+a.prev::before {
+  border-left-color: transparent;
+  border-right-color: #eeeeee;
+  margin: -6px -3px 0 0;
+  left: auto;
+  right: 50%;
 }
