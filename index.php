@@ -1,5 +1,5 @@
 <?php
-	$root = "http://localhost/m3/html";
+	$root = "http://localhost/presentation";
 ?>
 <!DOCTYPE html>
 <head>
