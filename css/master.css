@@ -431,6 +431,9 @@ body,
 .no-js .mp-menu > .mp-level {
   display: block;
 }
+.uc {
+  text-transform: uppercase;
+}
 body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
@@ -527,4 +530,36 @@ a.prev::before {
   margin: -6px -3px 0 0;
   left: auto;
   right: 50%;
+}
+/*  ================================================================================
+	LATENCY
+  	================================================================================ */
+.latency dl,
+.bandwidth dl {
+  overflow: hidden;
+  margin: 0;
+}
+.latency dl dt,
+.bandwidth dl dt {
+  float: left;
+  padding: 0 5px 0 0;
+  margin: 0;
+  position: relative;
+  font-weight: 700;
+}
+.latency dl dd,
+.bandwidth dl dd {
+  padding: 0 0 0 5px;
+  margin: 0;
+  float: right;
+  text-align: right;
+  position: relative;
+}
+.latency dl:after,
+.bandwidth dl:after {
+  content: "";
+  display: block;
+  overflow: hidden;
+  height: 1.3em;
+  border-bottom: #ccc 1px dotted;
 }

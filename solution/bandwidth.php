@@ -1,7 +1,7 @@
 <?php 
 	$pageClass = "bandwidth";
-	$nextURL = "solution/illusions";
-	$prevURL = "solution/latency";
+	$nextURL = "/solution/illusions";
+	$prevURL = "/solution/latency";
 	include('../inc/header.php');
 ?>
 	<h1>Bandwidth</h1>
@@ -13,10 +13,9 @@
 	<p><strong>Bandwidth</strong> the amount of data that can be carried from one point to another in a given time period</p>
 
 	<h4>Typical Connection Speeds</h4>
-	<ul>
-		<li><strong>Upgraded Connections</strong>: 15-30 Mbps</li>
-		<li><strong>Common Household Wifi Connection</strong>: 2-4 Mbps</li>
-		<li><strong>Good 4G Connection</strong>: 1-2 Mbps</li>
-		<li><strong>Good 3G Connection</strong>: 0.2-0.5 Mbps</li>
-	</ul>
+	
+	<dl><dt>Upgraded Connections</dt> <dd>15-30 Mbps</dd></dl>
+	<dl><dt>Common Household Wifi Connection</dt> <dd>2-4 Mbps</dd></dl>
+	<dl><dt>Good 4G Connection</dt> <dd>1-2 Mbps</dd></dl>
+	<dl><dt>Good 3G Connection</dt> <dd>0.2-0.5 Mbps</dd></dl>
 <?php include('../inc/footer.php'); ?>

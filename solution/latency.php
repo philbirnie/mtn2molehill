@@ -1,7 +1,7 @@
 <?php 
 	$pageClass = "latency";
-	$nextURL = "solution/bandwidth";
-	$prevURL = "solution/prelude";
+	$nextURL = "/solution/bandwidth";
+	$prevURL = "/solution/prelude";
 	include('../inc/header.php');
 ?>
 	<h1>Latency</h1>
@@ -15,14 +15,19 @@
 	<p>Latency varies depending upon connection and device.  Mobile networks have notoriously high latency</p>
 
 	<h4>Typical Latency Benchmarks</h4>
-	<ul>
-		<li><strong>Good Wired Connection</strong>: 10-30 ms</li>
-		<li><strong>Good Wifi Connection</strong>: 30-60 ms</li>
-		<li><strong>Good 4G Connection</strong>: 150-250 ms</li>
-		<li><strong>Good 3G Connection</strong>: 400 ms</li>
+	<!-- <ul>
+		<li><strong>Good Wired Connection:</strong> 10-30 ms</li>
+		<li><strong>Good Wifi Connection:</strong> 30-60 ms</li>
+		<li><strong>Good 4G Connection:</strong> 150-250 ms</li>
+		<li><strong>Good 3G Connection:</strong> 400 ms</li>
 		<li><strong>Poor Connection can be 1000-2000ms!</strong></li>
-	</ul>
-
+	</ul> -->
+	<dl><dt>Good Wired Connection</dt> <dd>10-30 ms</dd></dl>
+	<dl><dt>Good Wifi Connection</dt> <dd>30-60 ms</dd></dl>
+	<dl><dt>Good 4G Connection</dt> <dd>150-250 ms</dd></dl>
+	<dl><dt>Good 3G Connection</dt> <dd>400 ms</dd></dl>
+	<dl><dt>Poor Connection</dt> <dd>&#8776; 1000-2000ms!</dd></dl>
+	
 	<p>If your phone has been idle, there may be an addition of 1000-2000ms while the phone reconnects.</p>
 
 <?php include('../inc/footer.php'); ?>

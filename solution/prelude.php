@@ -1,6 +1,6 @@
 <?php 
 	$pageClass = "prelude";
-	$nextURL = "solution/latency";
+	$nextURL = "/solution/latency";
 	$prevURL = "";
 	include('../inc/header.php');
 ?>
