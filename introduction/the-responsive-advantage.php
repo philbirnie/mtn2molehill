@@ -1,7 +1,7 @@
 <?php 
 	$pageClass = "resp-advantage";
-	$nextURL = "";
-	$prevURL = "";
+	$nextURL = "our-problem.php";
+	$prevURL = "../index.php";
 	include('../inc/header.php');
 ?>
 	<h1>The Advantages of Responsive Design</h1>

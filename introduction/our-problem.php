@@ -1,7 +1,7 @@
 <?php 
 	$pageClass = "our-problem";
-	$nextURL = "";
-	$prevURL = "";
+	$nextURL = "mobile-obstacles.php";
+	$prevURL = "the-responsive-advantage.php";
 	include('../inc/header.php');
 ?>
 	<h1>Our Problem</h1>

@@ -1,9 +1,12 @@
 <?php
-	$root = "http://localhost/m3/site";
+	$root = "http://10.0.1.4/m3/site";
 ?>
 <!DOCTYPE html>
 <head>
-	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	
 	<title></title>
 	<link rel="stylesheet" href="<?php echo $root; ?>/css/master.css" type="text/css" media="screen" title="no title" charset="utf-8">
 	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
@@ -15,5 +18,12 @@
 			<?php include('nav.php'); ?>
 			<div class="scroller">
 	            <div class="scroller-inner">
+					<header class="site-header">
 						<a href="#" id="trigger" class="menu-trigger">Open/Close Menu</a>
+						<div class="pagination">
+							<?php if(isset($prevURL)){ ?><a href="<?php echo $prevURL; ?>" class="prev">Previous</a><?php } ?>
+							<?php if(isset($nextURL)){ ?><a href="<?php echo $nextURL; ?>" class="next">Next</a><?php } ?>
+						</div><!-- .pagination -->
+					</header>
+						
 						<div class="page-content <?php if(isset($pageClass)){ echo $pageClass; } ?>">
