@@ -1,12 +1,10 @@
 <?php 
 	$pageClass = "cover";
-	$nextURL = "";
-	$prevURL = "";
+	$nextURL = "introduction/the-responsive-advantage.php";
+	//$prevURL = "";
 	include('inc/header.php');
 ?>
-	<br><br><br><br><br>
-	<small>[image here]</small>
-	<br><br><br><br><br>
+	<div class="imgwrap"><img src="<?php echo $root; ?>/img/mtn2molehill.png" alt=""></div>
 	<h1>Making a Molehill out of a Mountain</h1>
 	<h2>Optimization Techniques for Responsively-Designed Websites</h2>
 	

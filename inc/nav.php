@@ -6,7 +6,7 @@
 			<li class="icon icon-arrow-left">
 				<a class="icon icon-display" href="#">Introduction</a>
 				<div class="mp-level">
-					<h2 class="icon icon-display">Introduction</h2>
+					<h2 class="icon icon-display">Intro</h2>
 					<ul>
 						<li><a href="<?php echo $root; ?>/introduction/the-responsive-advantage">The Responsive Advantage</a></li>
 						<li><a href="<?php echo $root; ?>/introduction/our-problem">Our Problem</a></li>
