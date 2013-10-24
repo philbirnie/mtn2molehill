@@ -1,7 +1,7 @@
 <?php 
 	$pageClass = "benchmarking";
-	$nextURL = "solution/illusions";
-	$prevURL = "solution/benchmarking";
+	$nextURL = "techniques/caching";
+	$prevURL = "solutions/illusions";
 	include('../inc/header.php');
 ?>
 	<h1>Measuring Progress</h1>
