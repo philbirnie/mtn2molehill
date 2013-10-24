@@ -19,11 +19,11 @@
 				<div class="mp-level">
 					<h2 class="icon icon-display">Toward a Solution</h2>
 					<ul>
-						<li><a href="">A Prelude</a></li>
-						<li><a href="">Reduce Latency</a></li>
-						<li><a href="">Reduce Bandwidth</a></li>
-						<li><a href="">Creating Illusions</a></li>
-						<li><a href="">Tracking Our Progress</a></li>
+						<li><a href="solution/prelude">A Prelude</a></li>
+						<li><a href="solution/latency">Reduce Latency</a></li>
+						<li><a href="solution/bandwidth">Reduce Bandwidth</a></li>
+						<li><a href="solution/illusions">Creating Illusions</a></li>
+						<li><a href="solution/benchmarking">Tracking Our Progress</a></li>
 					</ul>
 				</div><!-- .mp-level -->
 			</li>
