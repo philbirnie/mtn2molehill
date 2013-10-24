@@ -6,6 +6,9 @@
 @navbg: #2A8FBD;
 @linkcolor: @navbg;
 @linkhovercolor: #fa4945;
+
+.uc{text-transform: uppercase;}
+
 body {
 	font-family: 'Montserrat', sans-serif;
 	font-weight:400;
@@ -101,4 +104,37 @@ a.prev::before {
 	margin:-6px -3px 0 0;
 	left:auto;
 	right:50%;
+}
+
+/*  ================================================================================
+	LATENCY
+  	================================================================================ */
+.latency,
+.bandwidth {
+	dl {
+		overflow: hidden;
+		margin:0;
+		dt {
+			float: left;
+			padding: 0 5px 0 0;
+			margin: 0;
+			position:relative;
+			font-weight:700;
+		}
+		dd {
+			float: right;
+			padding: 0 0 0 5px;
+			margin: 0;
+			float:right;
+			text-align: right;
+			position:relative;
+		}
+		&:after {
+			content: "";
+			display: block;
+			overflow: hidden;
+			height: 1.3em;
+			border-bottom: #ccc 1px dotted;
+		}
+	}
 }

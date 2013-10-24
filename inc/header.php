@@ -21,8 +21,8 @@
 					<header class="site-header">
 						<a href="#" id="trigger" class="menu-trigger">Open/Close Menu</a>
 						<div class="pagination">
-							<?php if(isset($prevURL)){ ?><a href="<?php echo $prevURL; ?>" class="prev">Previous</a><?php } ?>
-							<?php if(isset($nextURL)){ ?><a href="<?php echo $nextURL; ?>" class="next">Next</a><?php } ?>
+							<?php if(isset($prevURL)){ ?><a href="<?php echo $root.$prevURL; ?>" class="prev">Previous</a><?php } ?>
+							<?php if(isset($nextURL)){ ?><a href="<?php echo $root.$nextURL; ?>" class="next">Next</a><?php } ?>
 						</div><!-- .pagination -->
 					</header>
 						
