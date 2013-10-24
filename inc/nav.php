@@ -33,7 +33,7 @@
 					<h2 class="icon icon-display">Optimization Techniques</h2>
 					<ul>
 						<li><a href="<?php echo $root; ?>/techniques/caching">Caching</a></li>
-						<li><a href="<?php echo $root; ?>/techniques/deflate">Mod_Deflate or Mod_Gzip</a></li>
+						<li><a href="<?php echo $root; ?>/techniques/mod_deflate">Mod_Deflate or Mod_Gzip</a></li>
 						<li><a href="<?php echo $root; ?>/techniques/concatenation">Concatenation &amp; Inlining</a></li>
 						<li><a href="<?php echo $root; ?>/techniques/reordering">Re-ordering Assets</a></li>
 						<li><a href="<?php echo $root; ?>/techniques/lazy-load-1">Lazy Load Part 1: Media Queries &amp; Image Loading</a></li>
