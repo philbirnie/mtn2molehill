@@ -32,12 +32,12 @@
 				<div class="mp-level">
 					<h2 class="icon icon-display">Optimization Techniques</h2>
 					<ul>
-						<li><a href="">Caching</a></li>
-						<li><a href="">Mod_Deflate or Mod_Gzip</a></li>
-						<li><a href="">Concatenation &amp; Inlining</a></li>
-						<li><a href="">Re-ordering Assets</a></li>
-						<li><a href="">Lazy Load Part 1: Media Queries &amp; Image Loading</a></li>
-						<li><a href="">Lazy Load Part 2: Javascript &amp; Related Elements</a></li>
+						<li><a href="<?php echo $root; ?>/techniques/caching">Caching</a></li>
+						<li><a href="<?php echo $root; ?>/techniques/deflate">Mod_Deflate or Mod_Gzip</a></li>
+						<li><a href="<?php echo $root; ?>/techniques/concatenation">Concatenation &amp; Inlining</a></li>
+						<li><a href="<?php echo $root; ?>/techniques/reordering">Re-ordering Assets</a></li>
+						<li><a href="<?php echo $root; ?>/techniques/lazy-load-1">Lazy Load Part 1: Media Queries &amp; Image Loading</a></li>
+						<li><a href="<?php echo $root; ?>/techniques/lazy-load-2">Lazy Load Part 2: Javascript &amp; Related Elements</a></li>
 					</ul>
 				</div><!-- .mp-level -->
 			</li>

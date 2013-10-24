@@ -1,5 +1,5 @@
 <?php
-	$root = "http://10.0.1.4/m3/site";
+	$root = "http://127.0.0.1/m3/site";
 ?>
 <!DOCTYPE html>
 <head>
