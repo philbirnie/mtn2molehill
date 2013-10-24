@@ -23,6 +23,6 @@
 		<li><strong>Poor Connection can be 1000-2000ms!</strong></li>
 	</ul>
 
-	<p>If your phone has been idle, there may be an addition of 1000-2000ms while the phone reconnects.</p>
+	<p>If your phone has been idle, there may be an addition of 1000-2000ms while the phone reconnects.</p>	
 
 <?php include('../inc/footer.php'); ?>
