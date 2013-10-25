@@ -9,15 +9,9 @@
 	
 	<title></title>
 	<link rel="stylesheet" href="<?php echo $root; ?>/css/master.css" type="text/css" media="screen" title="no title" charset="utf-8">
-	<link rel="stylesheet" href="<?php echo $root; ?>/css/basic.css" type="text/css" media="screen" title="no title" charset="utf-8">
-	<link rel="stylesheet" href="<?php echo $root; ?>/css/jcarousel.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	<link rel="stylesheet" href="<?php echo $root; ?>/css/jcarousel_combined.css" type="text/css" media="screen" title="no title" charset="utf-8">
 	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 	<script src="<?php echo $root; ?>/js/modernizr.custom.js" type="text/javascript" charset="utf-8"></script>
-	<script src="<?php echo $root; ?>/js/classie.js"></script>
-	<script src="<?php echo $root; ?>/js/pushmenu.js"></script>
-	<script src="<?php echo $root; ?>/js/vendor/jquery.js"></script>
-	<script src="<?php echo $root; ?>/js/vendor/jcarousel.min.js"></script>
-	<script src="<?php echo $root; ?>/js/initialize.js"></script>
 </head>
 <body>
 	<div class="container">
