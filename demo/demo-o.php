@@ -2,13 +2,17 @@
 	$pageClass = "demo";
 	$nextURL = "";
 	$prevURL = "";
-	include('../inc/concatenate-header.php');
+	include('../inc/concatenate-header-bottom.php');
 ?>
-	<h1>Concatenation Demo</h1>
+	<h1>Position of Scripts</h1>
 
 	<h2>Before</h2>
 
-	<p>Before we concatenate everything, we have 19 requests.</p>
+	<p>Browser has to wait until after scripts are loaded before continuing to render page in case something in the script actually changes the way the page will be rendered.</p>
+
+	<h2>After</h2>
+
+	<p>None of the page's content is blocked by our scripts because we load them last. </p>
 
 	<h2>jCarousel Example</h2>
 	<div id="jcarousel-container">
@@ -33,4 +37,4 @@
 	</div>
 
 
-<?php include('../inc/concatenate-footer.php'); ?>
+<?php include('../inc/concatenate-footer-bottom.php'); ?>

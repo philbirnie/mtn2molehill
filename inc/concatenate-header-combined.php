@@ -1,5 +1,5 @@
 <?php
-	$root = "http://mtn2molehill.com";
+	$root = "http://localhost/m3/site";
 ?>
 <!DOCTYPE html>
 <head>
@@ -9,15 +9,48 @@
 	
 	<title></title>
 	<link rel="stylesheet" href="<?php echo $root; ?>/css/master.css" type="text/css" media="screen" title="no title" charset="utf-8">
-	<link rel="stylesheet" href="<?php echo $root; ?>/css/basic.css" type="text/css" media="screen" title="no title" charset="utf-8">
-	<link rel="stylesheet" href="<?php echo $root; ?>/css/jcarousel.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	<link rel="stylesheet" href="<?php echo $root; ?>/css/jcarousel_combined.css" type="text/css" media="screen" title="no title" charset="utf-8">
 	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 	<script src="<?php echo $root; ?>/js/modernizr.custom.js" type="text/javascript" charset="utf-8"></script>
-	<script src="<?php echo $root; ?>/js/classie.js"></script>
-	<script src="<?php echo $root; ?>/js/pushmenu.js"></script>
-	<script src="<?php echo $root; ?>/js/vendor/jquery.js"></script>
+	<script src="<?php echo $root; ?>/js/core.js"></script>
+	<script src="//codeorigin.jquery.com/jquery-1.9.1.min.js"></script>
 	<script src="<?php echo $root; ?>/js/vendor/jcarousel.min.js"></script>
-	<script src="<?php echo $root; ?>/js/initialize.js"></script>
+	<script>
+		$(window).load(function()
+		{
+			$('.jcarousel').jcarousel();
+			$('.jcarousel-control-prev')
+			.on('active.jcarouselcontrol', function() {
+				$(this).removeClass('inactive');
+			})
+			.on('inactive.jcarouselcontrol', function() {
+				$(this).addClass('inactive');
+			})
+			.jcarouselControl({
+				target: '-=1'
+			});
+
+			$('.jcarousel-control-next')
+			.on('active.jcarouselcontrol', function() {
+				$(this).removeClass('inactive');
+			})
+			.on('inactive.jcarouselcontrol', function() {
+				$(this).addClass('inactive');
+			})
+			.jcarouselControl({
+				target: '+=1'
+			});
+
+			$('.jcarousel-pagination')
+			.on('active.jcarouselpagination', 'a', function() {
+				$(this).addClass('active');
+			})
+			.on('inactive.jcarouselpagination', 'a', function() {
+				$(this).removeClass('active');
+			})
+			.jcarouselPagination();
+		});
+		</script>
 </head>
 <body>
 	<div class="container">

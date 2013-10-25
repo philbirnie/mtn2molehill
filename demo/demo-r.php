@@ -2,13 +2,13 @@
 	$pageClass = "demo";
 	$nextURL = "";
 	$prevURL = "";
-	include('../inc/concatenate-header.php');
+	include('../inc/concatenate-header-combined.php');
 ?>
 	<h1>Concatenation Demo</h1>
 
-	<h2>Before</h2>
+	<h2>After</h2>
 
-	<p>Before we concatenate everything, we have 19 requests.</p>
+	<p>After concatenation, our number of requests is down to 15 + 2 moved off-server.</p>
 
 	<h2>jCarousel Example</h2>
 	<div id="jcarousel-container">
@@ -33,4 +33,4 @@
 	</div>
 
 
-<?php include('../inc/concatenate-footer.php'); ?>
+<?php include('../inc/concatenate-footer-combined.php'); ?>

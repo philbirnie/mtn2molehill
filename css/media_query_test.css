@@ -1,0 +1,24 @@
+#image-holder
+{
+	width: 100%;
+	min-height: 400px;
+	background-color: #aaa;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-image: url('../img/molehill.jpg');
+}
+
+@media screen and (min-width: 481px) {
+    #image-holder
+    {
+    	background-image: url('../img/hill.jpg');
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    #image-holder
+    {
+    	background-image: url('../img/mountain.jpg');
+    }
+}

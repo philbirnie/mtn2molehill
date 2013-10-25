@@ -19,7 +19,9 @@
 
 	<h3>HAR File Example</h3>
 
-	<p>Show image of HAR file.</p>
+	<div class="har-sample">
+		
+	</div>
 
 
 	<h3>Command Line</h3>

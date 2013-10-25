@@ -692,6 +692,11 @@ a.prev::before {
   height: 1.3em;
   border-bottom: #ccc 1px dotted;
 }
+.har-sample {
+  background-repeat: no-repeat;
+  width: 90%;
+  height: 300px;
+}
 .container img {
   max-width: 100%;
 }
@@ -700,4 +705,16 @@ img.block {
   width: 80%;
   margin: 1.0em auto;
   display: block;
+}
+@media screen and (max-width: 480px) {
+  .har-sample {
+    background-image: url('../img/har-mobile.png');
+  }
+}
+@media screen and (min-width: 481px) {
+  .har-sample {
+    background-image: url('../img/har-sample.png');
+    width: 80%;
+    height: 400px;
+  }
 }
