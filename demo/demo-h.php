@@ -14,8 +14,6 @@
 
 	<p>After enabling Gzipping, the transfer size of our CSS file dropped to 3KB and our page dropped to less than 2 KB!</p>
 
-	<p>What about images and small files?</p>
-
 	<p><img src="<?php echo $root; ?>/img/mountain.jpg" alt="" /></p>
 	
 
