@@ -28,6 +28,6 @@
 	<code>curl -I http://google.com</code>
 
 	<h2>Our Lab</h2>
-	<p><a href="<?php echo $root; ?>/demo">Demo Page:</a> A fairly simple, responsively designed page with a carousel, a few libraries.</p>
+	<p><a href="<?php echo $root; ?>/demo/demo">Demo Page:</a> A fairly simple, responsively designed page with a carousel, a few libraries.</p>
 
 <?php include('../inc/footer.php'); ?>

@@ -1,16 +1,8 @@
-#Rewrite All PHP
-<IfModule mod_rewrite.c>
-RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule (.*) $1.php [L]
-</IfModule>
-
-  # AddOutputFilterByType DEFLATE text/html text/plain text/css application/json
-  # AddOutputFilterByType DEFLATE application/javascript text/javascript
-  # AddOutputFilterByType DEFLATE text/xml application/xml text/x-component
-  # AddOutputFilterByType DEFLATE application/xhtml+xml application/rss+xml application/atom+xml
-  # AddOutputFilterByType DEFLATE image/svg+xml application/vnd.ms-fontobject application/x-font-ttf font/opentype
+  AddOutputFilterByType DEFLATE text/html text/plain text/css application/json
+  AddOutputFilterByType DEFLATE application/javascript
+  AddOutputFilterByType DEFLATE text/xml application/xml text/x-component
+  AddOutputFilterByType DEFLATE application/xhtml+xml application/rss+xml application/atom+xml
+  AddOutputFilterByType DEFLATE image/svg+xml application/vnd.ms-fontobject application/x-font-ttf font/opentype
 
 
 
@@ -25,10 +17,10 @@ RewriteRule (.*) $1.php [L]
 # Additionally, consider that outdated proxies may miscache 
 #   www.stevesouders.com/blog/2008/08/23/revving-filenames-dont-use-querystring/
 
-# # If you don't use filenames to version, lower the CSS  and JS to something like
-# #   "access plus 1 week" or so.
+# If you don't use filenames to version, lower the CSS  and JS to something like
+#   "access plus 1 week" or so.
 
-  ExpiresActive On
+  ExpiresActive Off
 
 # Perhaps better to whitelist expires rules? Perhaps.
    ExpiresDefault                          "access plus 1 month"
