@@ -1,7 +1,7 @@
 <?php 
 	$pageClass = "lazy-load-1";
 	$nextURL = "/techniques/lazy-load-2";
-	$prevURL = "/solution/reordering";
+	$prevURL = "/techniques/concatenation";
 	include('../inc/header.php');
 ?>
 	<h1>

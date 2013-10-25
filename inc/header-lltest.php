@@ -1,5 +1,5 @@
 <?php
-	$root = "http://localhost/m3/site";
+	$root = "http://mtn2molehill.com";
 ?>
 <!DOCTYPE html>
 <head>
