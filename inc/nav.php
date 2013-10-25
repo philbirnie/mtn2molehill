@@ -46,10 +46,13 @@
 				<div class="mp-level">
 					<h2 class="icon icon-display">Conclusions</h2>
 					<ul>
-						<li><a href="">On the Horizon</a></li>
-						<li><a href="">Final Points</a></li>
+						<li><a href="<?php echo $root; ?>/conclusions/on-the-horizon">On the Horizon</a></li>
+						<li><a href="<?php echo $root; ?>/conclusions/final-points">Final Points</a></li>
 					</ul>
 				</div><!-- .mp-level -->
+			</li>
+			<li class="demo">
+				<a href="<?php echo $root; ?>/demo/demo">Demo Page</a>
 			</li>
 		</ul>
 	</div>

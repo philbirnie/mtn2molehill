@@ -10,9 +10,17 @@
 
 	<h2>Goals</h2>
 	<ul>
-		<li>Reduce the NUMBER of requests, thereby reducing latency</li>
-		<li>Reduce the SIZE of requests, thereby reducing load times on slow connection speeds</li>
+		<li>Reduce the <strong>NUMBER</strong> of requests, thereby reducing latency</li>
+		<li>Reduce the <strong>SIZE</strong> of requests, thereby reducing transfer times</li>
 		<li>Prioritize the loading of our assets and events so that our sites appear to be faster.</li>
 	</ul>
+
+	<h2>Disclaimer</h2>
+	<ul>
+		<li>We&#8217;re entering Alice&#8217;s rabbit hole</li>
+		<li>Mobile optimization is kind of like golf</li>
+	</ul>
+
+	<p>Let's look at each of our goals in greater detail&#8230;</p>
 
 <?php include('../inc/footer.php'); ?>

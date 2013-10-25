@@ -22,9 +22,8 @@
 	</ul>
 
 	<h2>Implementation</h2>
-	<h6>(Example for Apache)</h6>
 
-	<p>Make sure that mod_deflate.c or mod_gzip.c is installed and active</p>
+	<p>Make sure that <code>mod_deflate.c</code> or <code>mod_gzip.c</code> is installed and active</p>
 
 	<pre>AddOutputFilterByType DEFLATE text/html text/plain text/css application/json
 AddOutputFilterByType DEFLATE application/javascript

@@ -12,7 +12,7 @@
 
 	<p><strong>Latency</strong> is the amount of time between when a browser makes a request and the server actually beings sending data.</p>
 
-	<p>Latency varies depending upon connection and device.  Mobile networks have notoriously high latency</p>
+	<p>Latency varies depending upon connection and device.  Mobile networks have notoriously high latency.</p>
 
 	<h2>Typical Latency Benchmarks</h2>
 

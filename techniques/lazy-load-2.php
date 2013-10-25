@@ -1,6 +1,6 @@
 <?php 
 	$pageClass = "lazy-load-2";
-	$nextURL = "";
+	$nextURL = "/conclusions/on-the-horizon";
 	$prevURL = "/techniques/lazy-load-1";
 	include('../inc/header.php');
 ?>
@@ -23,6 +23,18 @@
 		<li><a href="https://github.com/sparkbox/mediaCheck" title="MediaCheck Plugin">MediaCheck Plugin</a></li>
 		<li><a href="<?php echo $root; ?>/techniques/jcarousel-example">jCarousel</a> as an example</li>
 	</ul>
+
+	<pre>
+mediaCheck({
+	media: '(max-width: 420px)',
+		entry: function() {
+			initializeSmall();
+		},
+		exit: function() {
+			initializeLarge();
+		}
+	});
+</pre>
 
 	<h2>Testing</h2>
 	<p>Analyze HAR file/Waterfall Chart for bandwidth usage, number of files loaded, and point at which DOM is loaded</p>

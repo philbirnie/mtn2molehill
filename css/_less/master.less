@@ -9,6 +9,7 @@
 @navbg: #2A8FBD;
 @linkcolor: @navbg;
 @linkhovercolor: #fa4945;
+@demobg: #bd3835;
 
 
 /*  ================================================================================
@@ -42,6 +43,14 @@ a,a:visited {
 		letter-spacing: 1px;
 		&:hover {
 			color:lighten(@navbg, 30%);
+		}
+	}
+	.demo
+	{
+		background-color: @demobg;
+		a:hover
+		{
+			color: #fff;
 		}
 	}
 }
@@ -250,4 +259,20 @@ a.prev::before {
 			border-bottom: #ccc 1px dotted;
 		}
 	}
+}
+
+.container
+{
+	img
+	{
+		max-width: 100%;
+	}
+}
+
+img.block
+{
+	max-width: 100%;
+	width: 80%;
+	margin: 1.0em auto;
+	display: block;
 }

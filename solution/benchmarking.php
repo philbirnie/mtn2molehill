@@ -12,7 +12,8 @@
 
 	<ul>
 		<li><a href="http://mobitest.akamai.com/m/index.cgi" title="Mobitest">Mobitest</a></li>
-		<li>HAR files/Waterfall Diagram in our Inspector</li>
+		<li>HAR files/Waterfall Diagram</li>
+		<li>Our Browser's Inspector</li>
 		<li>Terminal/Command Line</li>
 	</ul>
 
@@ -22,7 +23,9 @@
 
 
 	<h3>Command Line</h3>
-
 	<code>curl -I http://google.com</code>
+
+	<h2>Our Lab</h2>
+	<p><a href="<?php echo $root; ?>/demo">Demo Page:</a> A fairly simple, responsively designed page with a carousel, a few libraries.</p>
 
 <?php include('../inc/footer.php'); ?>

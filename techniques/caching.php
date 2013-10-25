@@ -24,24 +24,20 @@
 	<h2>Implementation</h2>
 	<h6>(Example for Apache)</h6>
 
-	<p>Make sure that mod_expires.c is active and installed</p>
+	<p>Make sure that <code>mod_expires.c</code> is installed and active</p>
 
 	<pre>ExpiresActive on
 ExpiresDefault                          "access plus 1 month"
 
-
-# cache.appcache needs re-requests in FF 3.6 (thanks Remy ~Introducing HTML5)
-ExpiresByType text/cache-manifest       "access plus 0 seconds"
-
-
 # Your document html
 ExpiresByType text/html                 "access plus 1 hour"
  
+<strong>
 # Data
 ExpiresByType text/xml                  "access plus 0 seconds"
 ExpiresByType application/xml           "access plus 0 seconds"
 ExpiresByType application/json          "access plus 0 seconds"
-
+</strong>
 
 # Feed
 ExpiresByType application/rss+xml       "access plus 1 hour"

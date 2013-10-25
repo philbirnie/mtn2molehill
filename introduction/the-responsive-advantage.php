@@ -1,6 +1,6 @@
 <?php 
 	$pageClass = "resp-advantage";
-	$nextURL = "/introduction/our-problem.php";
+	$nextURL = "/introduction/our-problem";
 	$prevURL = "/";
 	include('../inc/header.php');
 ?>

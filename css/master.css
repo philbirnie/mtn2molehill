@@ -467,6 +467,12 @@ a:visited:hover {
 .mp-menu a:hover {
   color: #98cfe8;
 }
+.mp-menu .demo {
+  background-color: #bd3835;
+}
+.mp-menu .demo a:hover {
+  color: #fff;
+}
 header {
   background: #fff;
   height: 50px;
@@ -685,4 +691,13 @@ a.prev::before {
   overflow: hidden;
   height: 1.3em;
   border-bottom: #ccc 1px dotted;
+}
+.container img {
+  max-width: 100%;
+}
+img.block {
+  max-width: 100%;
+  width: 80%;
+  margin: 1.0em auto;
+  display: block;
 }

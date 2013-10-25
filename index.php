@@ -1,6 +1,6 @@
 <?php 
 	$pageClass = "cover";
-	$nextURL = "/introduction/the-responsive-advantage.php";
+	$nextURL = "/introduction/the-responsive-advantage";
 	//$prevURL = "";
 	include('inc/header.php');
 ?>
