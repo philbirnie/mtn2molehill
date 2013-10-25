@@ -207,7 +207,7 @@ body,
   width: 40px;
   height: 6px;
   background: #2a8fbd;
-  box-shadow: 0 6px #eeeeee, 0 12px #2a8fbd, 0 18px #eeeeee, 0 24px #2a8fbd;
+  box-shadow: 0 6px #ffffff, 0 12px #2a8fbd, 0 18px #ffffff, 0 24px #2a8fbd;
   content: '';
 }
 .mp-pusher {
@@ -321,10 +321,10 @@ body,
 }
 .mp-menu h2 {
   margin: 0;
-  padding: 1em;
+  padding: 20px 10px;
   color: rgba(0, 0, 0, 0.4);
   text-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
-  font-weight: 300;
+  font-weight: 700;
   font-size: 2em;
 }
 .mp-menu.mp-overlap h2::before {
@@ -359,11 +359,11 @@ body,
 }
 .mp-menu ul li > a {
   display: block;
-  padding: 0.7em 1em;
+  padding: 10px;
   outline: none;
   box-shadow: inset 0 -1px rgba(0, 0, 0, 0.2);
   text-shadow: 0 0 1px rgba(255, 255, 255, 0.1);
-  font-size: 1.4em;
+  font-size: 1em;
   -webkit-transition: background 0.3s, box-shadow 0.3s;
   -moz-transition: background 0.3s, box-shadow 0.3s;
   transition: background 0.3s, box-shadow 0.3s;
@@ -431,9 +431,18 @@ body,
 .no-js .mp-menu > .mp-level {
   display: block;
 }
+/*  ================================================================================
+	COLORS
+================================================================================ */
+/*  ================================================================================
+	MIXINS
+================================================================================ */
 .uc {
   text-transform: uppercase;
 }
+/*  ================================================================================
+	GLOBALS
+================================================================================ */
 body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
@@ -458,35 +467,20 @@ a:visited:hover {
 .mp-menu a:hover {
   color: #98cfe8;
 }
+header {
+  background: #fff;
+  height: 50px;
+  -webkit-box-shadow: 0 2px 1px #e9e9e9;
+  -moz-box-shadow: 0 2px 1px #e9e9e9;
+  box-shadow: 0 2px 1px #e9e9e9;
+}
 .page-content {
-  padding: 30px 10px;
+  padding: 0px 10px 30px;
   margin: auto;
   max-width: 960px;
 }
-.cover {
-  text-align: center;
-}
-.cover .imgwrap {
-  max-width: 366px;
-  margin: auto;
-}
-.cover img {
-  width: 100%;
-}
-h1 {
-  font-weight: 700;
-  font-size: 45px;
-  line-height: 1em;
-}
-h2 {
-  color: #666;
-  text-transform: uppercase;
-  font-weight: 400;
-  font-size: 16px;
-  letter-spacing: 2px;
-}
 .pagination {
-  padding: 10px;
+  padding: 5px 0;
   text-align: center;
   position: absolute;
   right: 0px;
@@ -506,7 +500,7 @@ a.prev {
   height: 30px;
   width: 30px;
   display: inline-block;
-  margin: 5px;
+  margin: 5px 10px 5px 0;
 }
 a.next::before,
 a.prev::before {
@@ -518,7 +512,7 @@ a.prev::before {
   border-left-color: #eeeeee;
   top: 50%;
   left: 50%;
-  margin: -6px 0 0 -3px;
+  margin: -6px 0 0 -2px;
 }
 a.next:hover,
 a.prev:hover {
@@ -527,17 +521,146 @@ a.prev:hover {
 a.prev::before {
   border-left-color: transparent;
   border-right-color: #eeeeee;
-  margin: -6px -3px 0 0;
+  margin: -6px -2px 0 0;
   left: auto;
   right: 50%;
 }
+.page-content h1 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 1em;
+}
+.page-content h1 .subhead {
+  display: inline-block;
+  color: #666;
+  font-size: 25px;
+  line-height: 1.2em;
+  font-weight: 300;
+}
+.page-content h2 {
+  color: #666;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin: 30px 0 0px;
+  background: #2a8fbd;
+  padding: 5px 40px 5px 15px;
+  display: inline-block;
+  color: #eeeeee;
+  position: relative;
+  left: -10px;
+  line-height: 20px;
+}
+.page-content h2::after {
+  content: " ";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  margin-top: -40px;
+  border: solid 40px transparent;
+  border-left-width: 25px;
+  border-right-width: 25px;
+  border-right-color: #eeeeee;
+  height: 0;
+  width: 0;
+}
+.page-content h3 {
+  background: #ccc;
+  text-transform: uppercase;
+  padding: 5px 20px 5px 10px;
+  line-height: 20px;
+  font-size: 13px;
+  color: #666;
+  position: relative;
+  left: -10px;
+  display: inline-block;
+}
+.page-content code {
+  display: block;
+  margin: 1em 0;
+  background: #d5d5d5;
+  padding: 2px 4px;
+  -webkit-border-radius: 5px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 5px;
+  -moz-background-clip: padding;
+  border-radius: 5px;
+  background-clip: padding-box;
+}
+.page-content p code,
+.page-content li code {
+  display: inline;
+}
+.page-content pre {
+  -webkit-border-radius: 5px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 5px;
+  -moz-background-clip: padding;
+  border-radius: 5px;
+  background-clip: padding-box;
+  padding: 20px;
+  background: #fff;
+  font-size: .8em;
+  color: #666;
+  -webkit-box-shadow: 2px 2px 1px #d9d9d9;
+  -moz-box-shadow: 2px 2px 1px #d9d9d9;
+  box-shadow: 2px 2px 1px #d9d9d9;
+}
+.page-content blockquote {
+  font-family: Georgia, serif;
+  font-style: italic;
+  padding: 0;
+  margin: 1em 0;
+}
+.page-content blockquote cite {
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-style: normal;
+  margin-top: .3em;
+  text-align: right;
+}
+.page-content blockquote cite::before {
+  content: " - ";
+}
 /*  ================================================================================
-	LATENCY
-  	================================================================================ */
+	PAGE SPECIFICS
+================================================================================ */
+.page-content.cover {
+  text-align: center;
+}
+.page-content.cover h1 {
+  margin-bottom: .4em;
+}
+.page-content.cover h3 {
+  background: transparent;
+  margin-top: 0;
+  padding: 0;
+  color: #666;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 2px;
+  margin: 0px 0 0px;
+}
+.page-content.cover .imgwrap {
+  max-width: 366px;
+  margin: auto;
+}
+.page-content.cover img {
+  width: 100%;
+  margin-top: 20px;
+}
 .latency dl,
 .bandwidth dl {
   overflow: hidden;
   margin: 0;
+}
+.latency dl:first-of-type,
+.bandwidth dl:first-of-type {
+  margin-top: 1em;
 }
 .latency dl dt,
 .bandwidth dl dt {

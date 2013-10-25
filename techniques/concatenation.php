@@ -1,7 +1,7 @@
 <?php 
 	$pageClass = "concatenation";
-	$nextURL = "techniques/reordering";
-	$prevURL = "solution/mod_deflate";
+	$nextURL = "/techniques/reordering";
+	$prevURL = "/techniques/mod_deflate";
 	include('../inc/header.php');
 ?>
 	<h1>Concatenation</h1>
@@ -25,7 +25,8 @@
 	<ul>
 		<li>Most browsers can handle up to <strong>six</strong> downloads per host at once</li>
 		<li>Use CDNs to download from multiple hosts (Microsoft's CDN for popular libraries, Amazon S3 or Cloudfront)</li>
-		<li><a href="http://www.browserscope.org/?category=network" title="Home -Browserscope">Browserscope</a></li>
+		<li><a href="http://www.browserscope.org/?category=network" title="Home -
+Browserscope">Browserscope</a></li>
 	</ul>
 
 	<h2>Caveats</h2>
@@ -37,7 +38,7 @@
 
 	<p>Concatenation requires an interrogation of your workflow, careful planning and organization</p>
 
-	<h4>CSS</h4>
+	<h3>CSS</h3>
 
 	<ul>
 		<li>Break apart CSS files to breakpoints</li>
@@ -86,12 +87,12 @@ h1
 
 </pre>
 
-	<h4>Sprites <small>(concatenating images)</small></h4>
+	<h3>Sprites <small>(concatenating images)</small></h3>
 	<p>Use background positioning to display different images from one file instead of loading multiple images (latency nightmare!)
 
 	<p><strong>Example:</strong> <a href="http://s.c.lnkd.licdn.com/scds/common/u/img/sprite/sprite_global_v8.png" title="LinkedIn Sprite">LinkedIn</a></p>
 
-	<h4>Javascript</h4>
+	<h3>Javascript</h3>
 
 	<ul>
 		<li>Like with CSS, combine multiple Javascript files into one file</li>
@@ -104,7 +105,7 @@ h1
 		</li>
 	</ul>
 
-	<h2>Inlining Javascript</h2>
+	<h3>Inlining Javascript</h3>
 	<p>For small scripts that are only used on a single page or a couple of pages, these should be inlined into the page itself.  You can even do this with CSS.  To keep things manageable between two pages, you could use php <code>require</code> or <code>include</code> statements.</p>
 
 	<p><a href="http://stackoverflow.com/questions/138884/when-should-i-use-inline-vs-external-javascript">An old rule broken!</a></p>

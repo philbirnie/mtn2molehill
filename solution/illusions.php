@@ -1,7 +1,7 @@
 <?php 
 	$pageClass = "illusions";
-	$nextURL = "solution/illusions";
-	$prevURL = "solution/benchmarking";
+	$nextURL = "/solution/progress";
+	$prevURL = "/solution/benchmarking";
 	include('../inc/header.php');
 ?>
 	<h1>Creating Illusions</h1>

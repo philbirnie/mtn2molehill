@@ -1,7 +1,7 @@
 <?php 
 	$pageClass = "caching";
-	$nextURL = "techniques/mod_deflate";
-	$prevURL = "solution/benchmarking";
+	$nextURL = "/techniques/mod_deflate";
+	$prevURL = "/solution/benchmarking";
 	include('../inc/header.php');
 ?>
 	<h1>Enable &amp; Tune Caching</h1>
@@ -26,8 +26,7 @@
 
 	<p>Make sure that mod_expires.c is active and installed</p>
 
-	<pre>
-ExpiresActive on
+	<pre>ExpiresActive on
 ExpiresDefault                          "access plus 1 month"
 
 
@@ -75,15 +74,13 @@ ExpiresByType application/vnd.ms-fontobject "access plus 1 year"
  
 # CSS and JavaScript
 ExpiresByType text/css                  "access plus 1 week"
-ExpiresByType application/javascript    "access plus 1 month"
-	</pre>
+ExpiresByType application/javascript    "access plus 1 month"</pre>
 
 	<h2>Testing</h2>
 
 	<p>Use Command Line and HAR file to test.</p>
 
-	<pre>
-Philips-MacBook-Pro:~ philbirnie$ curl -I http://54.200.199.87/images/test.jpg
+	<pre>Philips-MacBook-Pro:~ philbirnie$ curl -I http://54.200.199.87/images/test.jpg
 HTTP/1.1 200 OK
 Date: Fri, 18 Oct 2013 02:33:24 GMT
 Server: Apache/2.2.25 (Amazon)
@@ -93,8 +90,7 @@ Accept-Ranges: bytes
 Content-Length: 178280
 <strong>Cache-Control: max-age=2592000, public</strong>
 <strong>Expires: Sun, 17 Nov 2013 02:33:24 GMT</strong>
-Content-Type: image/jpeg
-	</pre>
+Content-Type: image/jpeg</pre>
 
 
 

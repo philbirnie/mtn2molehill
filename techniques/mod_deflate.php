@@ -1,7 +1,7 @@
 <?php 
 	$pageClass = "caching";
-	$nextURL = "techniques/concatenation";
-	$prevURL = "solution/caching";
+	$nextURL = "/techniques/concatenation";
+	$prevURL = "/techniques/caching";
 	include('../inc/header.php');
 ?>
 	<h1>Mod_Deflate or Mod_Gzip</h1>
@@ -26,18 +26,16 @@
 
 	<p>Make sure that mod_deflate.c or mod_gzip.c is installed and active</p>
 
-	<pre>
-AddOutputFilterByType DEFLATE text/html text/plain text/css application/json
+	<pre>AddOutputFilterByType DEFLATE text/html text/plain text/css application/json
 AddOutputFilterByType DEFLATE application/javascript
 AddOutputFilterByType DEFLATE text/xml application/xml text/x-component
 AddOutputFilterByType DEFLATE application/xhtml+xml application/rss+xml application/atom+xml
-AddOutputFilterByType DEFLATE image/svg+xml application/vnd.ms-fontobject application/x-font-ttf font/opentype
-	</pre>
+AddOutputFilterByType DEFLATE image/svg+xml application/vnd.ms-fontobject application/x-font-ttf font/opentype</pre>
 
 	<h2>Testing</h2>
 
 	<p>Browser or <a href="http://www.whatsmyip.org/http-compression-test/" title="WhatsMyIP.org | HTTP Compression Test">Compression Tester</a></p>
-	</pre>
+	
 
 
 
